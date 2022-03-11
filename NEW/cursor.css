@@ -1,0 +1,12 @@
+#cursor{
+    width: 140px;
+    height: 140px;
+    background-color: #60376dd7;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    mix-blend-mode:difference;
+    pointer-events: none;
+    z-index: 100;
+}

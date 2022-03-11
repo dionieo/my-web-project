@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    overflow-y: hidden;
+    transition: 500ms;
+}
+
+/*---NAVIGATION---*/
+
+nav{
+    height: 100%;
+    width: 100px;
+    background-color: #844C95;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+nav img{
+    height: 9%;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.nav-wrapper li{
+    height: 20px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    margin: 0 5px;
+    padding-bottom: 90px;
+    top: 230px;
+    left: 24%;
+}
+
+.nav-wrapper li a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-size: 40px;
+}
+
+.darkmode-button{
+    position: relative;
+    left: 20%;
+    top: 350px;
+    width: 100%;
+}
+
+.darkmode-button input{
+    width: 60%;
+}
+
+
+/*---KONTEN NYA NTAR---*/
+
+.outer-container{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 286.5vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+    /*HOME*/
+
+.container .home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul{
+    width: 500px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    float: left;
+}
+
+.judul h1{
+    width: 479px;
+    height: 449px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 120px;
+    margin-top: 190px;
+    margin-left: 65px;
+}
+
+.judul p{
+    width: 479px;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 600px;
+    margin-left: 65px;
+}
+
+.isi {
+    width: 90vh;
+    padding-top: 145px;
+    margin-left: 610px;
+    margin-right: 100px;
+}
+
+.isi p{
+    font-size: 25px;
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+/*ABOUT ME*/
+
+.container .about-me{
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul-abt{
+    width: 500px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    float: left;
+}
+
+.judul-abt h1{
+    width: 479px;
+    height: 449px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 120px;
+    margin-top: 130px;
+    margin-left: 65px;
+}
+
+.judul-abt p{
+    width: 385px;
+    height: 25px;
+    line-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 410px;
+    margin-left: 65px;
+}
+
+.isi-abt {
+    width: 90vh;
+    padding-top: 80px;
+    margin-left: 610px;
+    margin-right: 100px;
+}
+    
+.isi-abt p{
+    font-size: 22px;
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+.isi-abt h4{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.about-me a{
+    text-decoration: none;
+    color: #844C95;
+}
+
+.about-me a:hover{
+    transition: 500ms;
+    color: white;
+}
+
+
+/*CONTACT*/
+
+.container .contact{
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul-ctc{
+    width: 500px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    float: left;
+}
+
+.judul-ctc h1{
+    width: 479px;
+    height: 449px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 120px;
+    margin-top: 350px;
+    margin-left: 45px;
+}
+
+.isi-ctc {
+    width: 80vh;
+    padding-top: 80px;
+    margin-left: 610px;
+    margin-right: 100px;
+}
+
+.isi-ctc h2{
+    font-weight: 600;
+    font-size: 130px;
+    line-height: 160px;
+}
+
+.isi-ctc a{
+    padding-left: 10px;
+    font-size: 90px;
+    color: black;
+}
+
+.isi-ctc .medsos{
+    margin-left: 30px;
+}
+
+
+
+/*DARK MODE*/
+
+.darkmode{
+    background-color: #1a1a1a;
+    color: rgb(204, 204, 204);
+}
+
+.darkmode .judul{
+    background-color: #0f0f0f;
+}
+
+.darkmode .judul h1{
+    color: #844C95;
+}
+
+.darkmode .judul p{
+    color: rgb(204, 204, 204);
+}
+
+.darkmode .judul-abt{
+    background-color: #0f0f0f;
+}
+
+.darkmode .judul-abt h1{
+    color: #844C95;
+}
+
+.darkmode .judul-abt p{
+    color: rgb(204, 204, 204);
+}
+
+.darkmode .judul-ctc{
+    background-color: #0f0f0f;
+}
+
+.darkmode .judul-ctc h1{
+    color: #844C95;
+}
+
+.darkmode .isi-ctc a{
+    color: rgb(204, 204, 204);
+}
+
+.darkmode .isi-ctc a:hover{
+    transition: 500ms;
+    color: #844C95;
+}
+
+/*SELECTION*/
+
+::selection {
+    color: whitesmoke;
+    background-color: #844c95;
+}
